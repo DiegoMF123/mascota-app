@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.rincon.gt.efgarcid.models;
+package com.rincon.gt.dscid.models;
 
 import java.util.Date;
 import javax.persistence.Column;
@@ -15,7 +15,7 @@ import org.hibernate.annotations.DynamicUpdate;
 
 /**
  *
- * @author egarc
+ * @author Diego_MF
  */
 @Entity
 @DynamicUpdate

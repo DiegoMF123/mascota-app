@@ -1,10 +1,10 @@
-package com.rincon.gt.efgarcid;
+package com.rincon.gt.dscid;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EfgarcidApplicationTests {
+class DscidApplicationTests {
 
 	@Test
 	void contextLoads() {

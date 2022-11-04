@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package com.rincon.gt.efgarcid.common;
+package com.rincon.gt.dscid.common;
 
 
 import java.util.Optional;
@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  *
- * @author egarc
+ * @author Diego_MF
  */
 public class CommonImpl <E, R extends CrudRepository<E, Object>> implements CommonSvc<E>{
     

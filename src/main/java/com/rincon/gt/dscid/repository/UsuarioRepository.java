@@ -2,8 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package com.rincon.gt.efgarcid.repository;
-import com.rincon.gt.efgarcid.models.UsuarioModel;
+package com.rincon.gt.dscid.repository;
+import com.rincon.gt.dscid.models.UsuarioModel;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.Query;
@@ -12,7 +12,7 @@ import org.springframework.data.repository.query.Param;
 
 /**
  *
- * @author egarc
+ * @author Diego_MF
  */
 public interface UsuarioRepository extends CrudRepository<UsuarioModel, Object> {
 

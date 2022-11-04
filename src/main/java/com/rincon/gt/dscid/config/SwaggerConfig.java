@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.rincon.gt.efgarcid.config;
+package com.rincon.gt.dscid.config;
 
 import java.util.Collections;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +18,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  *
- * @author egarc
+ * @author Diego_MF
  */
 @Configuration
 @EnableSwagger2

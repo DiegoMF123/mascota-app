@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.rincon.gt.efgarcid.common;
+package com.rincon.gt.dscid.common;
 
 
 import io.swagger.annotations.ApiOperation;
@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 /**
  *
- * @author egarc
+ * @author Diego_MF
  */
 @CrossOrigin(origins = "https://app-organizador-tareas.herokuapp.com")
 public class CommonController<E, S extends CommonSvc<E>> {

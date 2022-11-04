@@ -1,13 +1,13 @@
-package com.rincon.gt.efgarcid;
+package com.rincon.gt.dscid;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EfgarcidApplication {
+public class DsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EfgarcidApplication.class, args);
+		SpringApplication.run(DsApplication.class, args);
 	}
 
 }
