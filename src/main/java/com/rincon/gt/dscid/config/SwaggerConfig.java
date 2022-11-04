@@ -36,8 +36,8 @@ public class SwaggerConfig {
 
     private ApiInfo getApiInfo() {
         return new ApiInfo(
-                "TABLEROS",
-                "Service Tableros",
+                "MASCOTA-APP",
+                "Análisis de sistemas II",
                 "1.0",
                 "http://codmind.com/terms",
                 new Contact("Codmind", "https://codmind.com", "apis@codmind.com"),
