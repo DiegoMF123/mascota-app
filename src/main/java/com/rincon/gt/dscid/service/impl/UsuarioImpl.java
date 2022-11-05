@@ -8,8 +8,11 @@ import com.rincon.gt.dscid.common.CommonImpl;
 import com.rincon.gt.dscid.models.UsuarioModel;
 import com.rincon.gt.dscid.repository.UsuarioRepository;
 import com.rincon.gt.dscid.svc.UsuarioSvc;
+import java.time.LocalDate;
+import java.time.Month;
 import java.util.List;
 import java.util.Optional;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -29,4 +32,11 @@ public class UsuarioImpl extends CommonImpl<UsuarioModel, UsuarioRepository> imp
        return usuario;
     }
     
+    @Test
+    void when_birthDate_except_validAge(){
+        LocalDate miCumple = LocalDate.of(2001, 8, 11);
+        
+        //Interger age = puertaSvc.ageFromBirthDate(miCumple);
+        
+    }
 }
